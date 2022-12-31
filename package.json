@@ -1,0 +1,27 @@
+{
+  "name": "ramdom-msg",
+  "version": "1.0.0",
+  "description": "Ramdom String Messages",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Davidvb11/ramdom-msg.git"
+  },
+  "keywords": [],
+  "author": "David Vargas <davidvb11@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Davidvb11/ramdom-msg/issues"
+  },
+  "homepage": "https://github.com/Davidvb11/ramdom-msg#readme",
+  "bin": {
+    "random-str-msg": "./bin/global.js"
+  },
+  "preferGlobal": true,
+  "dependencies": {
+    "g": "^2.0.1"
+  }
+}
